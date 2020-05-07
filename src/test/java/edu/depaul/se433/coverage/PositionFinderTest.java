@@ -53,8 +53,8 @@ public class PositionFinderTest {
     assertEquals(0, pos);
   }
 
+
   @Test
-  @Disabled
   @DisplayName("should return 0 when target is only item")
   public void test_zero() {
     int[] a = new int[] {0};
